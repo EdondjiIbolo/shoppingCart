@@ -1,0 +1,36 @@
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .filters > div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+  }
+  select {
+    padding: 7px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #333; 
+    color: #FFF;
+  }
+  select option {
+    color: white;
+  }
+@media screen and (max-width:376px){
+  .filters {
+
+    align-items: center;
+    justify-content: start;
+
+  }
+  
+}
